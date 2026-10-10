@@ -1,0 +1,8 @@
+{
+  "archetype": "ramp",
+  "description": "Workloads with gradual increases or decreases",
+  "count": 1,
+  "workload_ids": [
+    "w_0004"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "archetype": "periodic",
+  "description": "Workloads with regular, predictable patterns",
+  "count": 1,
+  "workload_ids": [
+    "w_0002"
+  ]
+}

@@ -1,0 +1,212 @@
+feature_importance:
+  lightgbm:
+    active_ratio: !!python/object/apply:numpy._core.multiarray.scalar
+    - &id001 !!python/object/apply:numpy.dtype
+      args:
+      - f8
+      - false
+      - true
+      state: !!python/tuple
+      - 3
+      - <
+      - null
+      - null
+      - null
+      - -1
+      - -1
+      - 0
+    - !!binary |
+      ytwEf2TBrkA=
+    autocorr_lag_1: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      NRmuER2SsEA=
+    autocorr_lag_10: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      d8t46+yE/0A=
+    autocorr_lag_120: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAAAA=
+    autocorr_lag_1440: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAAAA=
+    autocorr_lag_30: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      nIJP+vqb80A=
+    autocorr_lag_5: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      8bi8hAOqzUA=
+    autocorr_lag_60: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAAAA=
+    burstiness: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      XNajVMTHo0A=
+    cv: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      EtI+SkW6rEA=
+    dominant_freq: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      l+GQvnLEeEA=
+    dominant_freq_power: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      WHhCtYDNtkA=
+    gini_coefficient: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      Hd+gW4+pu0A=
+    iqr: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      HKiuKiJXv0A=
+    kurtosis: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      73FcRU4JBUE=
+    linear_trend_r2: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      LnLMsRBV00A=
+    linear_trend_slope: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      qOy3VeAV2UA=
+    max: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      cI8dDwGmnEA=
+    max_to_mean_ratio: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      XiZxg28xzUA=
+    max_to_median_ratio: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      hMbQXy2X0UA=
+    mean: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      Uzs2BlY2qkA=
+    mean_abs_change: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      qpo3FXNKu0A=
+    mean_change: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      P2em/FnpZkA=
+    median: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      lNcKrV1NsEA=
+    min: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      6zHa1FrkaEA=
+    num_peaks: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      U+LjdJCdw0A=
+    peaks_per_hour: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      dS1IN6rAo0A=
+    power_high_freq: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAAAA=
+    power_low_freq: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAAAA=
+    power_med_freq: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAAAA=
+    range: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      uSgfP0VEk0A=
+    skewness: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      iXQMgThw5kA=
+    spectral_entropy: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      HWAWsY+T3UA=
+    std: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      Nwyskq3An0A=
+    std_change: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      Sau7ZaihrEA=
+    time_to_peak_ratio: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AGA22skI50A=
+    variance: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      /0HyDsd1vUA=
+feature_names:
+- mean
+- median
+- std
+- variance
+- skewness
+- kurtosis
+- min
+- max
+- range
+- iqr
+- cv
+- max_to_mean_ratio
+- max_to_median_ratio
+- autocorr_lag_1
+- autocorr_lag_5
+- autocorr_lag_10
+- autocorr_lag_30
+- autocorr_lag_60
+- autocorr_lag_120
+- autocorr_lag_1440
+- linear_trend_slope
+- linear_trend_r2
+- mean_abs_change
+- mean_change
+- std_change
+- num_peaks
+- peaks_per_hour
+- spectral_entropy
+- dominant_freq
+- dominant_freq_power
+- power_low_freq
+- power_med_freq
+- power_high_freq
+- active_ratio
+- burstiness
+- gini_coefficient
+- time_to_peak_ratio
+label_maps:
+  lightgbm_label_map:
+    PERIODIC: 0
+    RAMP: 1
+    SPIKE: 2
+    STATIONARY_NOISY: 3
+  lightgbm_reverse_map:
+    0: PERIODIC
+    1: RAMP
+    2: SPIKE
+    3: STATIONARY_NOISY

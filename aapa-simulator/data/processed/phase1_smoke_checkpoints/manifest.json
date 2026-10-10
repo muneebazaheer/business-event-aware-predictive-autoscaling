@@ -1,0 +1,10 @@
+{
+  "window_size": 60,
+  "stride": 10,
+  "min_invocations": 1000,
+  "min_active_ratio": 0.1,
+  "max_functions": 30,
+  "http_only": true,
+  "days": 14,
+  "within_day_windows": true
+}

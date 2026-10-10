@@ -1,0 +1,9 @@
+{
+  "archetype": "spike",
+  "description": "Workloads with sudden bursts and low baseline activity",
+  "count": 2,
+  "workload_ids": [
+    "w_0001",
+    "w_0003"
+  ]
+}

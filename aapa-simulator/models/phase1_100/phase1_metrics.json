@@ -1,0 +1,89 @@
+{
+  "report": {
+    "PERIODIC": {
+      "precision": 0.9992354740061162,
+      "recall": 0.9995220342223496,
+      "f1-score": 0.9993787335722819,
+      "support": 31383.0
+    },
+    "RAMP": {
+      "precision": 0.7692307692307693,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.8108108108108109,
+      "support": 35.0
+    },
+    "SPIKE": {
+      "precision": 0.9979061245855871,
+      "recall": 0.9987775061124694,
+      "f1-score": 0.9983416252072969,
+      "support": 5726.0
+    },
+    "STATIONARY_NOISY": {
+      "precision": 0.998457470251212,
+      "recall": 0.9945127304653204,
+      "f1-score": 0.9964811963932263,
+      "support": 4556.0
+    },
+    "accuracy": 0.9987529976019185,
+    "macro avg": {
+      "precision": 0.9412074595184211,
+      "recall": 0.9624887819857492,
+      "f1-score": 0.951253091495904,
+      "support": 41700.0
+    },
+    "weighted avg": {
+      "precision": 0.9987748839687918,
+      "recall": 0.9987529976019185,
+      "f1-score": 0.9987614784360149,
+      "support": 41700.0
+    }
+  },
+  "avg_confidence": 0.9985479165436877,
+  "confusion_matrix": [
+    [
+      31368,
+      1,
+      12,
+      2
+    ],
+    [
+      1,
+      30,
+      0,
+      4
+    ],
+    [
+      6,
+      0,
+      5719,
+      1
+    ],
+    [
+      17,
+      8,
+      0,
+      4531
+    ]
+  ],
+  "labels": [
+    "PERIODIC",
+    "RAMP",
+    "SPIKE",
+    "STATIONARY_NOISY"
+  ],
+  "splits": {
+    "train": 125100,
+    "validation": 27800,
+    "test": 41700
+  },
+  "settings": {
+    "window_size": 60,
+    "stride": 10,
+    "min_invocations": 1000,
+    "min_active_ratio": 0.1,
+    "max_functions": 100,
+    "http_only": true,
+    "days": 14,
+    "within_day_windows": true
+  }
+}

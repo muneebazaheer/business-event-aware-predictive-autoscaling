@@ -1,0 +1,8 @@
+{
+  "archetype": "stationary_noisy",
+  "description": "Stable workloads with random noise",
+  "count": 1,
+  "workload_ids": [
+    "w_0005"
+  ]
+}
